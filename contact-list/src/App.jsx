@@ -1,18 +1,13 @@
-import { useState } from 'react'
-import './App.css'
+import "./App.css";
+import ContactList from "./components/ContactList";
+("./ContactList.jsx");
 
-function App() {
-  const [] = useState("")
-
+export default function App() {
   return (
     <>
-      <div>
-   
-      </div>
-  
-  
+      <ContactList />
     </>
-  )
+  );
 }
 
-export default App
+// export default App
